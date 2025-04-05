@@ -37,4 +37,18 @@ Steps
 
 Example below.
 
-Ref 1: Network Diagram
+Image 1
+
+![count by source](https://github.com/user-attachments/assets/3962b998-35c4-4535-8d42-9f3cded02c74)
+
+Now we can see event log CCSV file is here so it means that the logs are Successfully Generated and we can view these logs by clicking on view events and analyze them.
+
+Image 2
+
+![count by entrytype](https://github.com/user-attachments/assets/c0acc484-11e7-457e-84b0-30ff0f34a454)
+
+This Query will show us how many Event falls under each category and Error information etc.
+we can see how many Events each category is containning.
+
+Image 3 
+
