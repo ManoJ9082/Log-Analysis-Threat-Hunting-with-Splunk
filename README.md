@@ -52,3 +52,46 @@ we can see how many Events each category is containning.
 
 Image 3 
 
+![count by timechart ](https://github.com/user-attachments/assets/f0bd493a-92d2-463c-bf12-53c06300ca56)
+
+This Query Dispalys a timeline of how different count types Error Information vary over time.
+
+Image 4 
+
+![top messsage eroor](https://github.com/user-attachments/assets/0ed3dd5b-bb59-49f3-931b-f3b1519b6096)
+
+Here You can see the most Common Error Messages in the Logs.
+
+Image 5 
+
+![category ](https://github.com/user-attachments/assets/65fdbd3c-6a02-447d-984c-2b916471f253)
+
+Here you can see and break down how many logs belongs to each category.
+
+Image 6
+
+![isp](https://github.com/user-attachments/assets/6bf7eacf-bf48-4d6f-b44d-fce99e94c1f4)
+
+You can see and Analyze which ISPs are Linked to Error logs helpful for identifying network related issues.
+
+Image 7 
+
+![login  failure](https://github.com/user-attachments/assets/c04fd27b-6eef-4620-bc71-e909ab775390)
+
+![evnt alert](https://github.com/user-attachments/assets/fc7a2449-0b0f-425f-ae51-52030d0e4b5d)
+
+![alert](https://github.com/user-attachments/assets/98835ef7-afb5-4116-af8e-a5870be6617e)
+
+As you can we are Creating a Alerts for Login Failure 
+
+You can Analyze log events with different queries, you can Analyze to find failed login attempts by running Query as ( Index+maddy_logs event_type=login Status=failed | stats count by user )
+
+You can also identify unusual IP activities, you can detect brute force and malware.
+
+
+
+
+
+
+
+
