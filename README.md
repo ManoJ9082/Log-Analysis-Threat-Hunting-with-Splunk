@@ -43,6 +43,8 @@ Image 1
 
 Now we can see event log CCSV file is here so it means that the logs are Successfully Generated and we can view these logs by clicking on view events and analyze them.
 
+<hr>
+
 Image 2
 
 ![count by entrytype](https://github.com/user-attachments/assets/c0acc484-11e7-457e-84b0-30ff0f34a454)
@@ -50,11 +52,15 @@ Image 2
 This Query will show us how many Event falls under each category and Error information etc.
 we can see how many Events each category is containning.
 
+<hr>
+
 Image 3 
 
 ![count by timechart ](https://github.com/user-attachments/assets/f0bd493a-92d2-463c-bf12-53c06300ca56)
 
 This Query Dispalys a timeline of how different count types Error Information vary over time.
+
+<hr>
 
 Image 4 
 
@@ -62,17 +68,23 @@ Image 4
 
 Here You can see the most Common Error Messages in the Logs.
 
+<hr>
+
 Image 5 
 
 ![category ](https://github.com/user-attachments/assets/65fdbd3c-6a02-447d-984c-2b916471f253)
 
 Here you can see and break down how many logs belongs to each category.
 
+<hr>
+
 Image 6
 
 ![isp](https://github.com/user-attachments/assets/6bf7eacf-bf48-4d6f-b44d-fce99e94c1f4)
 
 You can see and Analyze which ISPs are Linked to Error logs helpful for identifying network related issues.
+
+<hr>
 
 Image 7 
 
