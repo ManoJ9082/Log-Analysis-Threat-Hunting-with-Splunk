@@ -1,109 +1,101 @@
-# Log-Analysis-Threat-Hunting-with-Splunk
+# 🛡️ Log Analysis & Threat Hunting with Splunk
 
+A practical cybersecurity project focusing on centralized log management, threat hunting, and anomaly detection using Splunk.
 
-Objective
+---
 
-The goal of log analysis and threat hunting with Splunk is to centralize logs from servers, firewalls, and endpoints so we can detect suspicious activity—like strange logins or data leaks—that automated tools might miss. By correlating events (e.g., tracing a phishing email to malware spread), we uncover attack patterns and respond faster. Splunk helps prioritize critical alerts, automate investigations, and generate compliance reports while reducing false positives. Over time, we refine searches and integrate threat intelligence to catch hidden risks before they escalate, keeping defenses proactive and sharp.
+## 📖 Table of Contents
 
-Skills Learned 
+- [🎯 Objective](#-objective)
+- [🧠 Skills Learned](#-skills-learned)
+- [🛠️ Tools Used](#-tools-used)
+- [🚀 Project Workflow](#-project-workflow)
+- [📸 Screenshots](#-screenshots)
+- [🔍 Example SPL Queries](#-example-spl-queries)
+- [📊 Notable Events & Use Cases](#-notable-events--use-cases)
+- [🎓 Learnings](#-learnings)
+- [📚 References](#-references)
 
-- **Splunk Basics** – Navigating the interface, running searches, and using SPL (Search Processing Language) to dig through logs.  
-- **Log Collection & Normalization** – Setting up data inputs, parsing raw logs, and making sure everything’s in a usable format.  
-- **Detecting Anomalies** – Writing queries to spot weird behavior—failed logins, unusual file access, or unexpected network traffic.  
-- **Threat Hunting Techniques** – Proactively searching for signs of compromise (IOCs, TTPs) instead of just waiting for alerts.  
-- **Correlating Events** – Connecting the dots between different logs (e.g., firewall + endpoint + auth logs) to reconstruct attacks.  
-- **Building Dashboards & Alerts** – Creating real-time visualizations and automated alerts for faster detection.  
-- **Incident Investigation** – Using Splunk to trace attack timelines, pivot on suspicious activity, and gather evidence.  
-- **Reducing False Positives** – Fine-tuning searches and rules to cut through noise and focus on real threats.  
-- **Threat Intelligence Integration** – Enriching searches with external threat feeds (like MITRE ATT&CK) for better context.  
-- **Reporting & Compliance** – Generating security reports for audits (PCI DSS, HIPAA, etc.) to prove you’re on top of risks.  
+---
 
-Tools Used 
+## 🎯 Objective
 
-- **Splunk Search** – The core tool for digging through logs with simple searches or complex SPL queries.  
-- **Dashboards & Visualizations** – Built custom views to track security events in real time (like login attempts or suspicious traffic).  
-- **Alerts & Scheduled Reports** – Set up automated alerts for weird activity (e.g., brute-force attacks) and scheduled reports for trends.  
-- **Enterprise Security (ES)** – Used Splunk’s SIEM for threat detection, risk scoring, and case management.  
-- **Threat Intelligence Framework (TIF)** – Added external threat feeds (like known bad IPs) to enrich investigations.  
-- **Notable Events & Investigations** – Tracked high-priority alerts, assigned cases, and documented findings.  
-- **Pivot & Correlation Searches** – Connected different log sources to find attack patterns (e.g., malware + lateral movement).  
-- **Machine Learning Toolkit (MLTK)** – Ran anomaly detection models to spot outliers in user behavior or network traffic.  
-- **Splunk UBA (User Behavior Analytics)** – Monitored for insider threats and compromised accounts.  
-- **TA (Technology Add-ons) & Apps** – Installed add-ons for specific data sources (Windows logs, firewalls, cloud services).  
-- **MITRE ATT&CK Integration** – Mapped findings to real-world attack techniques for better context.  
-- **Splunk Phantom (SOAR)** – Automated responses (like blocking IPs or isolating endpoints) when threats were confirmed.  
+The goal of this project was to centralize logs from servers, firewalls, and endpoints to detect suspicious activity such as unusual logins, data leaks, or malware propagation. By correlating events across different log sources, we aimed to uncover attack patterns, automate investigations, reduce false positives, and proactively hunt for threats using Splunk’s powerful analytics, alerting, and reporting capabilities.
 
-Steps
+---
 
-Example below.
+## 🧠 Skills Learned
 
-Image 1
+- Splunk Basics: Interface navigation, searches, and SPL (Search Processing Language)
+- Log Collection & Normalization: Data input setup and log parsing
+- Anomaly Detection: Writing detection queries for failed logins, unusual activity, etc.
+- Threat Hunting: Proactively identifying Indicators of Compromise (IOCs) and Tactics, Techniques, and Procedures (TTPs)
+- Event Correlation: Linking events across log sources to identify attack chains
+- Dashboard & Alert Creation: Real-time visualizations and automated alerts
+- Incident Investigation & Timeline Analysis
+- False Positive Reduction through query fine-tuning
+- Threat Intelligence Integration (MITRE ATT&CK mappings, external feeds)
+- Reporting & Compliance automation
 
-![count by source](https://github.com/user-attachments/assets/3962b998-35c4-4535-8d42-9f3cded02c74)
+---
 
-Now we can see event log CCSV file is here so it means that the logs are Successfully Generated and we can view these logs by clicking on view events and analyze them.
+## 🛠️ Tools Used
 
-<hr>
+- **Splunk Enterprise**
+- **Splunk Search & SPL Queries**
+- **Dashboards & Visualizations**
+- **Alerts & Scheduled Reports**
+- **Splunk Enterprise Security (ES)**
+- **Threat Intelligence Framework (TIF)**
+- **Pivot & Correlation Searches**
+- **Splunk MLTK (Machine Learning Toolkit)**
+- **Splunk UBA (User Behavior Analytics)**
+- **MITRE ATT&CK Navigator Integration**
+- **Splunk Phantom (SOAR)**
+- **Technology Add-ons (TA) for data sources**
 
-Image 2
+---
 
-![count by entrytype](https://github.com/user-attachments/assets/c0acc484-11e7-457e-84b0-30ff0f34a454)
+## 🚀 Project Workflow
 
-This Query will show us how many Event falls under each category and Error information etc.
-we can see how many Events each category is containning.
+1. **Set up log collection** from endpoints, servers, and firewalls.
+2. **Ingest logs into Splunk**, ensuring normalization and parsing.
+3. **Create detection use cases** for anomalies like failed logins and error messages.
+4. **Correlate multiple log sources** (Windows, Firewall, Auth logs).
+5. **Build custom dashboards** for real-time event monitoring.
+6. **Set up alerts and automated responses** for high-priority events.
+7. **Integrate threat intelligence feeds** and map findings to MITRE ATT&CK.
+8. **Generate reports** for audits and compliance tracking.
 
-<hr>
+---
 
-Image 3 
+## 📸 Screenshots
 
-![count by timechart ](https://github.com/user-attachments/assets/f0bd493a-92d2-463c-bf12-53c06300ca56)
+> 📌 **Image 1:** *Event log source count*
+![Image1](images/image1.png)
 
-This Query Dispalys a timeline of how different count types Error Information vary over time.
+> 📌 **Image 2:** *Event types count (Error, Information, etc.)*
+![Image2](images/image2.png)
 
-<hr>
+> 📌 **Image 3:** *Timechart of event counts over time*
+![Image3](images/image3.png)
 
-Image 4 
+> 📌 **Image 4:** *Top occurring error messages*
+![Image4](images/image4.png)
 
-![top messsage eroor](https://github.com/user-attachments/assets/0ed3dd5b-bb59-49f3-931b-f3b1519b6096)
+> 📌 **Image 5:** *Event categories breakdown*
+![Image5](images/image5.png)
 
-Here You can see the most Common Error Messages in the Logs.
+> 📌 **Image 6:** *ISP analysis for error logs*
+![Image6](images/image6.png)
 
-<hr>
+> 📌 **Image 7:** *Login failure alerts*
+![Image7](images/image7.png)
 
-Image 5 
+---
 
-![category ](https://github.com/user-attachments/assets/65fdbd3c-6a02-447d-984c-2b916471f253)
+## 🔍 Example SPL Queries
 
-Here you can see and break down how many logs belongs to each category.
-
-<hr>
-
-Image 6
-
-![isp](https://github.com/user-attachments/assets/6bf7eacf-bf48-4d6f-b44d-fce99e94c1f4)
-
-You can see and Analyze which ISPs are Linked to Error logs helpful for identifying network related issues.
-
-<hr>
-
-Image 7 
-
-![login  failure](https://github.com/user-attachments/assets/c04fd27b-6eef-4620-bc71-e909ab775390)
-
-![evnt alert](https://github.com/user-attachments/assets/fc7a2449-0b0f-425f-ae51-52030d0e4b5d)
-
-![alert](https://github.com/user-attachments/assets/98835ef7-afb5-4116-af8e-a5870be6617e)
-
-As you can we are Creating a Alerts for Login Failure 
-
-You can Analyze log events with different queries, you can Analyze to find failed login attempts by running Query as ( Index+maddy_logs event_type=login Status=failed | stats count by user )
-
-You can also identify unusual IP activities, you can detect brute force and malware.
-
-
-
-
-
-
-
-
+- **Count events by source:**
+  ```spl
+  index=maddy_logs | stats count by source
