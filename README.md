@@ -72,25 +72,25 @@ The goal of this project was to centralize logs from servers, firewalls, and end
 ## 📸 Screenshots
 
 > 📌 **Image 1:** *Event log source count*
-![Image1](![count by source](https://github.com/user-attachments/assets/c26102ad-7c52-45b9-944f-650d2fa91ba1)
+(https://github.com/user-attachments/assets/c26102ad-7c52-45b9-944f-650d2fa91ba1)
 
 > 📌 **Image 2:** *Event types count (Error, Information, etc.)*
-![Image2](![count by entrytype](https://github.com/user-attachments/assets/8cf4a74c-4591-47f8-a01e-88f16487d4a1)
+(https://github.com/user-attachments/assets/8cf4a74c-4591-47f8-a01e-88f16487d4a1)
 
 > 📌 **Image 3:** *Timechart of event counts over time*
-![Image3](![count by timechart ](https://github.com/user-attachments/assets/f308fd14-f042-48a7-ad9e-9283ecef6c64)
+(https://github.com/user-attachments/assets/f308fd14-f042-48a7-ad9e-9283ecef6c64)
 
 > 📌 **Image 4:** *Top occurring error messages*
-![Image4] ![top messsage eroor](https://github.com/user-attachments/assets/5c1ad330-c8a5-48b2-bd16-e00353f47e89)
+ (https://github.com/user-attachments/assets/5c1ad330-c8a5-48b2-bd16-e00353f47e89)
 
 > 📌 **Image 5:** *Event categories breakdown*
-![Image5] ![category ](https://github.com/user-attachments/assets/51a8ab6c-dea2-4092-a32d-a70a28d8dcab)
+ (https://github.com/user-attachments/assets/51a8ab6c-dea2-4092-a32d-a70a28d8dcab)
 
 > 📌 **Image 6:** *ISP analysis for error logs*
-![Image6](![isp](https://github.com/user-attachments/assets/2d254764-e935-4441-8c7d-926783f970f1)
+(https://github.com/user-attachments/assets/2d254764-e935-4441-8c7d-926783f970f1)
 
 > 📌 **Image 7:** *Login failure alerts*
-![Image7](![login  failure](https://github.com/user-attachments/assets/520ccb72-c81c-45f5-a5a6-c3359bc75e79)
+(https://github.com/user-attachments/assets/520ccb72-c81c-45f5-a5a6-c3359bc75e79)
 
 
 ## 🔍 Example SPL Queries
