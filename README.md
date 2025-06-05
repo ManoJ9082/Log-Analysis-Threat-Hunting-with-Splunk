@@ -115,34 +115,39 @@ The goal of this project was to centralize logs from servers, firewalls, and end
 
 
 **📊 Notable Events & Use Cases**
-Created real-time alerts for login failure spikes.
 
-Mapped event categories to MITRE ATT&CK techniques.
+- Created real-time alerts for login failure spikes.
 
-Correlated firewall, endpoint, and Windows logs to identify multi-stage attacks.
+- Mapped event categories to MITRE ATT&CK techniques.
 
-Integrated threat intelligence to flag suspicious IPs.
+- Correlated firewall, endpoint, and Windows logs to identify multi-stage attacks.
 
-Reduced noise by refining SPL queries and detection thresholds.
+- Integrated threat intelligence to flag suspicious IPs.
+
+- Reduced noise by refining SPL queries and detection thresholds.
 
 
 **🎓 Learnings**
-Mastered log ingestion, normalization, and threat detection using Splunk.
 
-Developed expertise in writing effective SPL queries.
+- Mastered log ingestion, normalization, and threat detection using Splunk.
 
-Enhanced investigative workflows via event correlation and dashboards.
+- Developed expertise in writing effective SPL queries.
 
-Integrated external threat intelligence feeds.
+- Enhanced investigative workflows via event correlation and dashboards.
 
-Gained insights into incident response and reporting for security audits.
+- Integrated external threat intelligence feeds.
+
+- Gained insights into incident response and reporting for security audits.
 
 **📚 References**
-Splunk Documentation
 
-MITRE ATT&CK Framework
+- Splunk Documentation
 
-Splunk Security Essentials
+- MITRE ATT&CK Framework
 
-Windows Sysmon Documentation
+- Splunk Security Essentials
 
+- Windows Sysmon Documentation
+
+
+🚀 Author: Manoj Mothukuru
