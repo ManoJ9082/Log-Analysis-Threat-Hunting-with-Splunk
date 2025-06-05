@@ -72,25 +72,37 @@ The goal of this project was to centralize logs from servers, firewalls, and end
 ## 📸 Screenshots
 
 > 📌 **Image 1:** *Event log source count*
-(https://github.com/user-attachments/assets/c26102ad-7c52-45b9-944f-650d2fa91ba1)
+![count by source](https://github.com/user-attachments/assets/712f880a-6213-4f0b-a44d-e7f5a2d34524)
 
 > 📌 **Image 2:** *Event types count (Error, Information, etc.)*
-(https://github.com/user-attachments/assets/8cf4a74c-4591-47f8-a01e-88f16487d4a1)
+![count by entrytype](https://github.com/user-attachments/assets/4c53fde1-9d5f-49ef-8c1b-7fa9ef616cec)
+
 
 > 📌 **Image 3:** *Timechart of event counts over time*
-(https://github.com/user-attachments/assets/f308fd14-f042-48a7-ad9e-9283ecef6c64)
+![count by timechart ](https://github.com/user-attachments/assets/2b966ab6-285e-4241-8ee7-1405b904263f)
+
 
 > 📌 **Image 4:** *Top occurring error messages*
- (https://github.com/user-attachments/assets/5c1ad330-c8a5-48b2-bd16-e00353f47e89)
+ ![top messsage eroor](https://github.com/user-attachments/assets/764819c1-f900-4b81-b165-477660ba6fb3)
+
 
 > 📌 **Image 5:** *Event categories breakdown*
- (https://github.com/user-attachments/assets/51a8ab6c-dea2-4092-a32d-a70a28d8dcab)
+ ![category ](https://github.com/user-attachments/assets/5d08ebba-1f90-4c7e-94d7-0226c6ad565b)
+
 
 > 📌 **Image 6:** *ISP analysis for error logs*
-(https://github.com/user-attachments/assets/2d254764-e935-4441-8c7d-926783f970f1)
+![isp](https://github.com/user-attachments/assets/5c68d00b-7dcf-4761-b29f-4c1efd5d64ca)
+
 
 > 📌 **Image 7:** *Login failure alerts*
-(https://github.com/user-attachments/assets/520ccb72-c81c-45f5-a5a6-c3359bc75e79)
+![login  failure](https://github.com/user-attachments/assets/465a0ad6-3529-45c9-a633-06e67c9be6fd)
+
+> 📌 **Image 8:** *Event alert *
+![evnt alert](https://github.com/user-attachments/assets/ed799210-87c8-465d-867a-01c17236695e)
+
+> 📌 **Image 9:** * Login Failure alert *
+![alert](https://github.com/user-attachments/assets/f9d25ae8-b61a-4547-b217-3db01acecfa6)
+
 
 
 ## 🔍 Example SPL Queries
