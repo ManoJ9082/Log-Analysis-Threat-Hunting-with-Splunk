@@ -123,7 +123,7 @@ The goal of this project was to centralize logs from servers, firewalls, and end
 - Reduced noise by refining SPL queries and detection thresholds.
 
 
-**🎓 Learnings**
+## 🎓 Learnings**
 
 - Mastered log ingestion, normalization, and threat detection using Splunk.
 - Developed expertise in writing effective SPL queries.
@@ -131,7 +131,7 @@ The goal of this project was to centralize logs from servers, firewalls, and end
 - Integrated external threat intelligence feeds.
 - Gained insights into incident response and reporting for security audits.
 
-**📚 References**
+## 📚 References**
 
 - Splunk Documentation
 - MITRE ATT&CK Framework
